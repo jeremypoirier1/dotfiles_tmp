@@ -1,7 +1,13 @@
-echo "# dotfiles_tmp" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin git@github.com:jeremypoirier1/dotfiles_tmp.git
-git push -u origin main
+#!/bin/bash
+
+mkdir ~/bin
+mkdir ~/cegep
+mkdir ~/projets
+
+sudo pacman -Sy git
+sudo pacman -Sy neovim
+sudo pacman -Sy gcc
+sudo pacman -Sy gdb
+sudo pacman -Sy python313
+sudo pacman -Sy python-pip 
+sudo pacman -Sy python-virtualenvwrapper
