@@ -8,6 +8,6 @@ sudo pacman -Sy git
 sudo pacman -Sy neovim
 sudo pacman -Sy gcc
 sudo pacman -Sy gdb
-sudo pacman -Sy python313
+sudo pacman -Sy python312
 sudo pacman -Sy python-pip 
 sudo pacman -Sy python-virtualenvwrapper
